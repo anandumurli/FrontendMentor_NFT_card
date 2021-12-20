@@ -37,7 +37,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Live Site URL (https://anandumurli.github.io/FrontendMentor_NFT_card/)
+- [Live Site URL](https://anandumurli.github.io/FrontendMentor_NFT_card/)
 
 ## My process
 
