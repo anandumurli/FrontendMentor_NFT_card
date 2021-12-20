@@ -1,8 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    font-family: 'Outfit',sans-serif;
+    font-size: 18px;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+}
+.card{
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-self: center;
+}
+.card-img{
+    background-image: url("../images/image-equilibrium.jpg");
+    height: 150px;
+    width: 150px;
+    background-position: center;
+    background-size: contain;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.overlay{
+    background-image: url("../images/icon-view.svg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-color:  hsla(178, 100%, 50%, 0.4);
+    border-radius: 7px;
+    opacity: 0;
+    transition: all 0.4s ease-in;
+}
+.card-img:hover .overlay{
+    opacity: 1;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
