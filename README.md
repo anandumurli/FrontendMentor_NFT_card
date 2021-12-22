@@ -38,9 +38,9 @@ This is the mobile version of the page.
 ## My process
 After analyzing the design throughly I intially created skeleton html structure of the page. I wanted to make use of flex box as a preferred styling propoerty. Hence, went with a lot of divs which will contain each and every element of the page. I chose to input the image assets, in terms of icons, profile-image and card image as a background images rather than going with an img tag. For the current project it helped me out........ i think.
 
-After creating the skeleton, next step was to create a CSS file. In order to bring the card to the center, I went with fixing a height to the HTMl as 100vh. Then made everything else as relative to the height. This was giving body a flex and then justify-content center will essentially center any div child to the center of the whole visible screen. The last ```css .attribution div``` is made ```css position:absolute``` and hence was able to put it at the bottom wiithout affecting the structure.
+After creating the skeleton, next step was to create a CSS file. In order to bring the card to the center, I went with fixing a height to the HTMl as 100vh. Then made everything else as relative to the height. This was giving body a flex and then justify-content center will essentially center any div child to the center of the whole visible screen. The last ```.attribution div``` is made ```position:absolute``` and hence was able to put it at the bottom wiithout affecting the structure.
 
-The overlay, for the card-img was a thing of concern. I just created a div with class overlay inside the .card-img div. This way since the ```csss .card-img``` had fixed height and width, giving dimensions to the overlay got easier. 
+The overlay, for the card-img was a thing of concern. I just created a div with class overlay inside the .card-img div. This way since the ```.card-img``` had fixed height and width, giving dimensions to the overlay got easier. 
 
 ### Built with
 
