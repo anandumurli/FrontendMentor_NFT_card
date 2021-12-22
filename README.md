@@ -11,8 +11,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 
@@ -27,52 +25,31 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- ![](./screenshot.jpg)
+![](./screenshots/desktop-nft-card.png)
+This is the desktop version of the page.
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above. -->
+![](./screenshots/mobile-nft-card.png)
+This is the mobile version of the page.
 
 ### Links
 
 - [Live Site URL](https://anandumurli.github.io/FrontendMentor_NFT_card/)
 
 ## My process
+After analyzing the design throughly I intially created skeleton html structure of the page. I wanted to make use of flex box as a preferred styling propoerty. Hence, went with a lot of divs which will contain each and every element of the page. I chose to input the image assets, in terms of icons, profile-image and card image as a background images rather than going with an img tag. For the current project it helped me out........ i think.
+
+After creating the skeleton, next step was to create a CSS file. In order to bring the card to the center, I went with fixing a height to the HTMl as 100vh. Then made everything else as relative to the height. This was giving body a flex and then justify-content center will essentially center any div child to the center of the whole visible screen. The last ```css .attribution div``` is made ```css position:absolute``` and hence was able to put it at the bottom wiithout affecting the structure.
+
+The overlay, for the card-img was a thing of concern. I just created a div with class overlay inside the .card-img div. This way since the ```csss .card-img``` had fixed height and width, giving dimensions to the overlay got easier. 
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
 
 ### What I learned
-
-<!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-``` -->
-
-### Continued development
-
-
-### Useful resources
+I learnt how to effectively use flex box and how to work with overlays dring hover.
 
 ## Author
 
