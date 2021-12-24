@@ -28,12 +28,12 @@ body{
     flex-direction: column;
     padding: 10px;
     border-radius: 5px;
-    width: 170px;
+    width: 240px;
     box-shadow: 0px 15px 15px 5px hsl(215, 55%, 6%);
 }
 .card-img{
     background-image: url("../images/image-equilibrium.jpg");
-    height: 140px;
+    height: 200px;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -58,27 +58,27 @@ body{
     opacity: 1;
 }
 .heading{
-    font-size: .75em;
+    font-size: 1.2em;
     font-weight: 600;
     transition: all 0.4s ease-in;
     color: hsl(0, 0%, 100%);
     cursor: pointer;
-    padding: 10px 0;
+    padding: 13px 0;
 }
 .heading:hover{
     color: hsl(178, 100%, 50%);
 }
 .sub-heading{
-    font-size: .50em;
+    font-size: .75em;
     font-weight: 300;
 }
 .data-item{
     display: flex;
-    font-size: .45em;
+    font-size: .65em;
     font-weight: 400;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 15px 0;
 }
 .data-item div{
     display: flex;
@@ -86,14 +86,15 @@ body{
     justify-content: center;
 }
 .icon{
-    width: 8px;
-    height: 8px;
+    width: 14px;
+    height: 14px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: initial;
 }
 #item-1>.icon{
     background-image: url("../images/icon-ethereum.svg");
+    margin-right: 3px;
 }
 #item-1>.detail{
     color: hsl(178, 100%, 50%);
@@ -101,27 +102,27 @@ body{
 }
 #item-2>.icon{
     background-image: url("../images/icon-clock.svg");
-    margin-right: 2px;
+    margin-right: 4px;
 }
 .creator-info{
     border-top: solid 1px hsl(215, 32%, 27%);
     font-weight: 300;
-    font-size: .45em;
+    font-size: .65em;
     display: flex;
     justify-content: initial;
     align-items: center;
-    padding: 10px 0;
+    padding: 12px 0;
 }
 .profile-img{
-    height: 15px;
-    width: 15px;
+    height: 25px;
+    width: 25px;
     border: 0.5px solid hsl(0, 0%, 100%);
     border-radius: 50%;
     background-image: url("../images/image-avatar.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-right: 7px;
+    margin-right: 12px;
 }
 #creator-name{
     font-weight: 600;
@@ -143,7 +144,7 @@ body{
 }
 @media screen and (max-width: 375px) {
     body{
-        font-size: 30px;
+        /* font-size: 19; */
     }
     .card{
         width: 80%;
